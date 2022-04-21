@@ -8,7 +8,7 @@ const server = http.createServer((req,res)=>{
 
 	if(req.url=='/about'){
 	res.write('welcome to our homepage')
-	res.end('request ended')
+	
 }
 	res.end('we cant find the page')
 
